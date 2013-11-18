@@ -1,0 +1,25 @@
+#include<stdio.h>
+#define CountOfLetters 20
+#define CountOfWords 30
+#define N 1000
+void main()
+{
+	char sentence[N];
+	int cofl, cow;
+	int i;
+
+	cofl=CountOfLetters;
+	cow=CountOfWords;
+
+	printf("\t Hello!\n\n\tThis program will help you to determine");
+	printf("\n\tvector of lenght of words in a sentence.\n\n");
+	printf("\tEach word must not have more than %d letters.", cofl);
+	printf("\n\tSentence must not have more than %d words.", cow);
+
+	printf("\n\tTo complete the input press 'Enter'.");
+	printf("\n\n\tLet's enter your sentence, if you are ready for this.\n");
+	printf("\tEnter '0', if you don't want to use this program,");
+	printf("\n\tor if you don't have a sentence.\n\n");
+
+	
+}
